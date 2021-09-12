@@ -17,15 +17,15 @@ The **stats** structure for both mice and monkeys has the following fields:
 
 
 ## Directory organization
-├───datasets - *contains data from mice and monkey experiments*
-├───figures - *folders for figure output*
-├───fit functions - *functions for model fitting*
-│   ├───helpers - *fitting and simulation functions*
-│   ├───models - *model functions* 
-├───helper functions - *functions written for this project and from MATLAB file exchange* 
-├───metric functions - *functions to calculate entropy- and behavioral- metrics* 
-├───output - *saved intermediate output that can be used to recreate paper figures*
-├───plot functions - *functions for plotting each figure in the paper* 
+├───datasets - *contains data from mice and monkey experiments* \
+├───figures - *folders for figure output* \
+├───fit functions - *functions for model fitting* \
+│   ├───helpers - *fitting and simulation functions* \
+│   ├───models - *model functions* \
+├───helper functions - *functions written for this project and from MATLAB file exchange* \
+├───metric functions - *functions to calculate entropy- and behavioral- metrics* \
+├───output - *saved intermediate output that can be used to recreate paper figures* \
+├───plot functions - *functions for plotting each figure in the paper* \
 
 ## Using entropy metrics for your research
 Checkout the **DartmouthCCNL/EntropyMetrics** repository for a demo notebook that explains how to calculate and use the entropy metric functions.  
